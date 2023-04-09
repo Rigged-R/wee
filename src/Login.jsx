@@ -1,22 +1,19 @@
 import { useState } from 'react'
 import './App.css'
 
-function App() {
-
+function Login(){
   return (
     <>
     <div className="main">
       <h1>Username</h1>
       <input type="text" />
-      <h1>E-mail</h1>
-      <input type="text" />
       <h1>Password</h1>
       <input type="text" />
-      <button>REGISTER</button>
+      <button>LOGIN</button>
 
       <div className="redirect">
-        <p>If you have an account</p>
-        <a>Login</a>
+        <p>If you don't have an account</p>
+        <a >Register</a>
     </div>
     </div>
 
@@ -25,4 +22,4 @@ function App() {
   )
 }
 
-export default App
+export default Login

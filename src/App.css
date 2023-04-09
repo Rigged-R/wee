@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-family: 'Quicksand', sans-serif;
+}
+
+body{
+  background-image:url(assets/bcg.jpg) ;
+  background-repeat:initial;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main{
+  background-color:rgba(34, 34, 34, 0.63);
+  padding: 20px;
+  margin-top: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+.main h1{
+  padding: 10px;
+  color: white;
+}
+
+.main input{
+  padding: 25px;
+  width: 600px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.473);
+  margin: 10px;
+}
+
+.main input:hover{
+  background-color: rgba(31, 31, 31, 0.473);
+}
+
+.main button{
+  padding: 25px;
+  border-radius: 20px;
+  width: 40%;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.87);
+  color: white;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.main button:hover{
+  background-color: white;
+  color: black;
+}
+
+
+.redirect{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 15px;
+}
+
+.redirect p{
+  padding-right: 10px;
+}
+
+.redirect a{
+  color: white;
+  font-weight: 600;
+}
+
+.redirect a:hover{
+  color: black;
+}
