@@ -16,7 +16,7 @@ body{
 .main{
   background-color:rgba(34, 34, 34, 0.63);
   padding: 20px;
-  margin-top: 20%;
+  margin-top: 10%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -25,17 +25,17 @@ body{
 }
 
 .main h1{
-  padding: 10px;
+  padding: 5px;
   color: white;
 }
 
 .main input{
-  padding: 25px;
+  padding: 20px;
   width: 600px;
   border-radius: 20px;
   border: none;
   background-color: rgba(0, 0, 0, 0.473);
-  margin: 10px;
+  margin: 5px;
 }
 
 .main input:hover{
